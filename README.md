@@ -1,9 +1,9 @@
 # site-test
 
-wow.
+wow. this is a test site.
 
-> [!WARNING]
-> WOW
+> [!NOTE]
+> Documentation can just be basic markdown.
 
 ## Other page
 [other](other.md)
