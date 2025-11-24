@@ -3,8 +3,6 @@ repository: bschofield-va/site-test
 description: A test site, cool.
 
 markdown: GFM
-theme: just-the-docs
-color_scheme: dark
 plugins:
   - jemoji
   - jekyll-gfm-admonitions
