@@ -10,8 +10,12 @@ wow. this is a test site.
 > [!NOTE]
 > Documentation can just be basic markdown.
 
+{% octicon alert height:16 %} alert
 
 ##### :white_check_mark: Recommended
+You should do this
+
+##### 💡 Recommended
 You should do this
 
 
