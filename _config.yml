@@ -3,4 +3,4 @@ markdown: GFM
 plugins:
   - jemoji
   - jekyll-gfm-admonitions
-  - not-a-theme-wtf
+
