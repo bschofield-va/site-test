@@ -2,6 +2,8 @@ title: OMG WOW
 repository: bschofield-va/site-test
 description: A test site, cool.
 
+theme: just-the-docs
+
 remote_theme: pages-themes/primer@v0.6.0
 markdown: GFM
 plugins:
