@@ -1,4 +1,4 @@
-# site-test
+# Site Test
 
 
 wow. this is a test site.
