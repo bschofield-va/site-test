@@ -1,5 +1,10 @@
-title: OMG Test Site
+
+title: OMG WOW
+description: A test site, cool.
+
 markdown: GFM
 plugins:
   - jemoji
+  - jekyll-gfm-admonitions
+  - jekyll-optional-front-matter
 
