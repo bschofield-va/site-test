@@ -2,5 +2,4 @@ title: OMG Test Site
 markdown: GFM
 plugins:
   - jemoji
-  - jekyll-gfm-admonitions
 
