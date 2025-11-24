@@ -1,3 +1,4 @@
-markdown: CommonMarkGhPages
+title: OMG Test Site
+markdown: GFM
 plugins:
-  - jekyll-commonmark-ghpages
+  - jekyll-gfm-admonitions
