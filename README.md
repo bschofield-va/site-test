@@ -10,7 +10,8 @@ wow. this is a test site.
 > [!NOTE]
 > Documentation can just be basic markdown.
 
-{% octicon alert height:16 %} alert
+> [!WARNING]
+> I wish GitHub markdown alerts were supported in GitHub Pages.
 
 ##### :white_check_mark: Recommended
 You should do this
