@@ -1,1 +1,3 @@
-markdown: GFM
+markdown: CommonMarkGhPages
+plugins:
+  - jekyll-commonmark-ghpages
