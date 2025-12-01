@@ -19,21 +19,22 @@ wow. this is a test site.
 > [!NOTE]
 > Documentation can just be basic markdown.
 
+> [!TIP]
+> Penny for your thoughts?
+
+> [!IMPORTANT]
+> omg so important
+
 > [!WARNING]
 > I wish GitHub markdown alerts were supported in GitHub Pages.
 
-##### :white_check_mark: Recommended
-You should do this
+> [!CAUTION]
+> oh noes
 
-##### 💡 Recommended
-You should do this
+x
 
-
-##### :grey_exclamation: Note
-Be aware of this
-
-##### :warning: Warning
-You've been warned
+> Just a quote
+> where is it?
 
 
 ---
