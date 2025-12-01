@@ -2,7 +2,7 @@ title: OMG WOW
 repository: bschofield-va/site-test
 description: A test site, cool.
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-primer
 
 markdown: GFM
 plugins:
