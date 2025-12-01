@@ -12,7 +12,6 @@ services:
         - path: .
           action: rebuild
           ignore:
-            - ./.git/**
-            - ./.github/**
             - ./_site/**
+            - ./images/**
             - ./**/*.md

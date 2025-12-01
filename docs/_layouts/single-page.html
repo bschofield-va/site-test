@@ -35,13 +35,12 @@ layout: null
       for (var i = 0; i < anchors.elements.length; i++) {
         var anchored = anchors.elements[i];
         if (anchored.id == 'site-title') { continue; }
-        var label = document.createTextNode(anchored.textContent);
         var link = document.createElement('A');
         link.href = anchored.querySelector('.anchorjs-link').getAttribute('href');
-        link.appendChild(label);
-        var listItem = document.createElement('LI');
-        listItem.appendChild(link);
-        ul.appendChild(listItem);
+        link.appendChild(document.createTextNode(anchored.textContent));
+        var li = document.createElement('LI');
+        li.appendChild(link);
+        ul.appendChild(li);
       }
     </script>
   </body>
