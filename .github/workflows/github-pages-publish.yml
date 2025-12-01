@@ -25,7 +25,7 @@ jobs:
           cache-version: 0
       - id: pages
         uses: actions/configure-pages@v5
-      - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose
+      - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose --source docs
         env:
           JEKYLL_ENV: production
       - uses: actions/upload-pages-artifact@v3
