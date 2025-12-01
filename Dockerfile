@@ -6,6 +6,6 @@ set -euo pipefail
 set -x
 cd /site
 bundle install
-bundle exec jekyll serve --watch --host  0.0.0.0
+bundle exec jekyll serve --watch --host 0.0.0.0
 EOF
 ENTRYPOINT [ "bash", "/entrypoint.sh" ]
