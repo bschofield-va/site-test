@@ -1,42 +1,8 @@
----
-layout: single-page
-permalink: /
----
-# Site Test
+# Site Test README
 
-ok
-wow. this is a test site.
+[site](https://bschofield-va.github.io/site-test/)
 
-- [site](https://bschofield-va.github.io/site-test/)
-
-
-- [other](other.md)
-- [foo ack](foo/ack.md)
-- [foo bar](foo/bar.md)
-
-:smile:
 
 > [!NOTE]
-> Documentation can just be basic markdown.
+> This page should not be included in the actual site.
 
-> [!WARNING]
-> I wish GitHub markdown alerts were supported in GitHub Pages.
-
-##### :white_check_mark: Recommended
-You should do this
-
-##### 💡 Recommended
-You should do this
-
-
-##### :grey_exclamation: Note
-Be aware of this
-
-##### :warning: Warning
-You've been warned
-
-
----
-
-## another page page
-Go to [other](other.md)
