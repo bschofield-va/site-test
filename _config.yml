@@ -1,19 +1,16 @@
 title: OMG WOW
 repository: bschofield-va/site-test
-description: A test site, cool.
+url: https://bschofield-va.github.io
+baseurl: /site-test
 
-url: https://bschofield-va.github.io/site-test
+description: Test site to see how GitHub Pages works with Jekyll
 
 theme: jekyll-theme-primer
-
-
-
 markdown: GFM
 plugins:
   - jemoji
   - jekyll-gfm-admonitions
   - jekyll-optional-front-matter
-
 exclude:
   - .sass-cache/
   - .jekyll-cache/
