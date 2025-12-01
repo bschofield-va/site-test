@@ -23,6 +23,7 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
           cache-version: 0
+          working-directory: docs
       - id: pages
         uses: actions/configure-pages@v5
       - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose --destination ../_site
