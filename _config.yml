@@ -2,7 +2,11 @@ title: OMG WOW
 repository: bschofield-va/site-test
 description: A test site, cool.
 
+url: https://bschofield-va.github.io/site-test
+
 theme: jekyll-theme-primer
+
+
 
 markdown: GFM
 plugins:
