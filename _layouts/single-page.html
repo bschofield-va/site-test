@@ -14,8 +14,12 @@ layout: null
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       {% if site.title and site.title != page.title %}
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      <h1 id='site-title'><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       {% endif %}
+
+      <div class="text-small">
+        <ul id="table-of-contents-list"></ul>
+      </div>
 
       {% assign ordered_pages = site.html_pages | sort: 'order' %}
       {% for p in ordered_pages  %}
@@ -25,6 +29,20 @@ layout: null
       <div><sub><small>Published on {{ site.time | date_to_rfc822 }}<small></sub><div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
+    <script>
+      anchors.add('h1');
+      var ul = document.getElementById('table-of-contents-list');
+      for (var i = 0; i < anchors.elements.length; i++) {
+        var anchored = anchors.elements[i];
+        if (anchored.id == 'site-title') { continue; }
+        var label = document.createTextNode(anchored.textContent);
+        var link = document.createElement('A');
+        link.href = anchored.querySelector('.anchorjs-link').getAttribute('href');
+        link.appendChild(label);
+        var listItem = document.createElement('LI');
+        listItem.appendChild(link);
+        ul.appendChild(listItem);
+      }
+    </script>
   </body>
 </html>
