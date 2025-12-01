@@ -6,7 +6,3 @@ group :jekyll_plugins do
   gem 'jekyll-optional-front-matter'
   gem 'github-pages'
 end
-
-gem "just-the-docs"
-
-# gem 'jekyll-remote-theme'

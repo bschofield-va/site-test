@@ -1,0 +1,18 @@
+services:
+  site:
+    pull_policy: never
+    ports:
+      - ${SITE_PORT:-4000}:4000
+    volumes:
+      - "${PROJECT_DIR:-.}:/site"
+    build:
+      context: .
+    develop:
+      watch:
+        - path: .
+          action: rebuild
+          ignore:
+            - ./.git/**
+            - ./.github/**
+            - ./_site/**
+            - ./**/*.md

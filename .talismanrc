@@ -1,6 +1,8 @@
 fileignoreconfig:
 - filename: _layouts/default.html
   checksum: aaa79eafaff282e0599d8b47ddb56170c2acf2b2d1d686fec309e1bfdcf155e2
+- filename: _layouts/single-page.html
+  checksum: 40e7f8d51cc4810e89bbd3066191f6afd057947f8618bab44c2bc2a45c614861
 - filename: js/lunr.js
   checksum: d0acd83e27bf7a833ad7aecdc07c17940c783aa2d2922607bc1869e438b2703f
 version: "1.0"

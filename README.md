@@ -1,9 +1,18 @@
+---
+layout: single-page
+permalink: /
+---
 # Site Test
 
-
+ok
 wow. this is a test site.
 
 - [site](https://bschofield-va.github.io/site-test/)
+
+
+- [other](other.md)
+- [foo ack](foo/ack.md)
+- [foo bar](foo/bar.md)
 
 :smile:
 
@@ -26,10 +35,8 @@ Be aware of this
 ##### :warning: Warning
 You've been warned
 
-##### :x: Not allowed
-Nope nope nope
 
 ---
 
-## Other page
-[other](other.md)
+## another page page
+Go to [other](other.md)

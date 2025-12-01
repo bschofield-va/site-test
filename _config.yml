@@ -2,11 +2,16 @@ title: OMG WOW
 repository: bschofield-va/site-test
 description: A test site, cool.
 
-theme: just-the-docs
+theme: jekyll-theme-minimal
 
 markdown: GFM
 plugins:
   - jemoji
   - jekyll-gfm-admonitions
   - jekyll-optional-front-matter
+
+exclude:
+  - Dockerfile
+  - compose.yaml
+
 

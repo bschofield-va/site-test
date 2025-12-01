@@ -1,3 +1,6 @@
+---
+order: 2
+---
 # Other page
 
 Other things to consider when writing code:
